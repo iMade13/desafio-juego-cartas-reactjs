@@ -6,11 +6,11 @@ import './Board.css'
 
 class Board extends Component {
   render(){
-    const cards = [1, 2, 3, 4];
     return (
       <div className="board"> 
       {
-        cards.map((card) => <Cards />)
+        this.props.card
+        .map((card) => <Cards image={card.image}/>)
       }
       </div>
     )

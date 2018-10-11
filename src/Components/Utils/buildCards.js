@@ -1,4 +1,4 @@
-import shuffle from 'loadsh.suffle';
+import shuffle from 'lodash.shuffle';
 import CardsDeck from './deckOfCards';
 
 const CARDS_NUMBERS = 8;
