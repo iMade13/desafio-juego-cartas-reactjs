@@ -1,0 +1,9 @@
+.title h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.attempts span {
+  color: #fb5114;
+  font-weight: 600;
+}
